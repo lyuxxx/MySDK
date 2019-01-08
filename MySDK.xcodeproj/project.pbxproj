@@ -15,6 +15,17 @@
 		3199CE4321E3333E004C0119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3199CE4121E3333E004C0119 /* LaunchScreen.storyboard */; };
 		3199CE4821E33357004C0119 /* MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3199CE2521E33279004C0119 /* MySDK.framework */; };
 		3199CE4921E33357004C0119 /* MySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3199CE2521E33279004C0119 /* MySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3199CE7C21E4495C004C0119 /* FawImageLoadUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7021E4495C004C0119 /* FawImageLoadUtils.swift */; };
+		3199CE7D21E4495C004C0119 /* FawSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7121E4495C004C0119 /* FawSdk.swift */; };
+		3199CE7E21E4495C004C0119 /* FawUserBehaviorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7221E4495C004C0119 /* FawUserBehaviorUtils.swift */; };
+		3199CE7F21E4495C004C0119 /* FawDiaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7321E4495C004C0119 /* FawDiaryUtils.swift */; };
+		3199CE8021E4495C004C0119 /* NetworkListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7521E4495C004C0119 /* NetworkListener.swift */; };
+		3199CE8121E4495C004C0119 /* FawCallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7621E4495C004C0119 /* FawCallbackHandler.swift */; };
+		3199CE8221E4495C004C0119 /* HttpUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7721E4495C004C0119 /* HttpUtils.swift */; };
+		3199CE8321E4495C004C0119 /* FawMimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7821E4495C004C0119 /* FawMimeType.swift */; };
+		3199CE8421E4495C004C0119 /* FawHttpsTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7921E4495C004C0119 /* FawHttpsTrustPolicy.swift */; };
+		3199CE8521E4495C004C0119 /* FawHttpConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7A21E4495C004C0119 /* FawHttpConfig.swift */; };
+		3199CE8621E4495C004C0119 /* FawNetUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199CE7B21E4495C004C0119 /* FawNetUtils.swift */; };
 		9AC9417939CD89FDF776E69D /* Pods_MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC9154021899EE2CE331EB5 /* Pods_MySDK.framework */; };
 		DEB58F4AF5CF41A8327F59DF /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCE6CB06075E8651A7BD862 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +65,17 @@
 		3199CE3F21E3333E004C0119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3199CE4221E3333E004C0119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3199CE4421E3333E004C0119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3199CE7021E4495C004C0119 /* FawImageLoadUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawImageLoadUtils.swift; sourceTree = "<group>"; };
+		3199CE7121E4495C004C0119 /* FawSdk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawSdk.swift; sourceTree = "<group>"; };
+		3199CE7221E4495C004C0119 /* FawUserBehaviorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawUserBehaviorUtils.swift; sourceTree = "<group>"; };
+		3199CE7321E4495C004C0119 /* FawDiaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawDiaryUtils.swift; sourceTree = "<group>"; };
+		3199CE7521E4495C004C0119 /* NetworkListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkListener.swift; sourceTree = "<group>"; };
+		3199CE7621E4495C004C0119 /* FawCallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawCallbackHandler.swift; sourceTree = "<group>"; };
+		3199CE7721E4495C004C0119 /* HttpUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtils.swift; sourceTree = "<group>"; };
+		3199CE7821E4495C004C0119 /* FawMimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawMimeType.swift; sourceTree = "<group>"; };
+		3199CE7921E4495C004C0119 /* FawHttpsTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawHttpsTrustPolicy.swift; sourceTree = "<group>"; };
+		3199CE7A21E4495C004C0119 /* FawHttpConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawHttpConfig.swift; sourceTree = "<group>"; };
+		3199CE7B21E4495C004C0119 /* FawNetUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawNetUtils.swift; sourceTree = "<group>"; };
 		396834980BE6E8763A0F9754 /* Pods-MySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySDK/Pods-MySDK.debug.xcconfig"; sourceTree = "<group>"; };
 		60EEB0FA4865044B73B616B7 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		69E91414C9CE9E5DE4707ADF /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				3199CE2921E33279004C0119 /* Info.plist */,
+				3199CE7321E4495C004C0119 /* FawDiaryUtils.swift */,
+				3199CE7021E4495C004C0119 /* FawImageLoadUtils.swift */,
+				3199CE7421E4495C004C0119 /* FawNetUtils */,
+				3199CE7121E4495C004C0119 /* FawSdk.swift */,
+				3199CE7221E4495C004C0119 /* FawUserBehaviorUtils.swift */,
 				3199CE3021E332A2004C0119 /* MySDK.swift */,
 			);
 			path = MySDK;
@@ -123,6 +150,20 @@
 				3199CE4421E3333E004C0119 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		3199CE7421E4495C004C0119 /* FawNetUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3199CE7521E4495C004C0119 /* NetworkListener.swift */,
+				3199CE7621E4495C004C0119 /* FawCallbackHandler.swift */,
+				3199CE7721E4495C004C0119 /* HttpUtils.swift */,
+				3199CE7821E4495C004C0119 /* FawMimeType.swift */,
+				3199CE7921E4495C004C0119 /* FawHttpsTrustPolicy.swift */,
+				3199CE7A21E4495C004C0119 /* FawHttpConfig.swift */,
+				3199CE7B21E4495C004C0119 /* FawNetUtils.swift */,
+			);
+			path = FawNetUtils;
 			sourceTree = "<group>";
 		};
 		8FA2C7C7C1952F277590DBF4 /* Frameworks */ = {
@@ -336,7 +377,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3199CE7F21E4495C004C0119 /* FawDiaryUtils.swift in Sources */,
+				3199CE8421E4495C004C0119 /* FawHttpsTrustPolicy.swift in Sources */,
+				3199CE8121E4495C004C0119 /* FawCallbackHandler.swift in Sources */,
+				3199CE8321E4495C004C0119 /* FawMimeType.swift in Sources */,
+				3199CE7C21E4495C004C0119 /* FawImageLoadUtils.swift in Sources */,
+				3199CE8221E4495C004C0119 /* HttpUtils.swift in Sources */,
 				3199CE3121E332A2004C0119 /* MySDK.swift in Sources */,
+				3199CE8521E4495C004C0119 /* FawHttpConfig.swift in Sources */,
+				3199CE7D21E4495C004C0119 /* FawSdk.swift in Sources */,
+				3199CE8021E4495C004C0119 /* NetworkListener.swift in Sources */,
+				3199CE8621E4495C004C0119 /* FawNetUtils.swift in Sources */,
+				3199CE7E21E4495C004C0119 /* FawUserBehaviorUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
