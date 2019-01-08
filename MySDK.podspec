@@ -33,4 +33,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'MySDK.framework'
 
+  s.swift_version = '4.2'
+  s.dependency 'Alamofire', '~> 4.7.3'
+  s.dependency 'Kingfisher', '~> 4.10.1'
+  s.dependency 'AlamofireObjectMapper', '~> 5.2.0'
+
 end

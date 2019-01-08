@@ -7,9 +7,13 @@
 //
 
 import Foundation
+import Alamofire
 
 public class MySDK {
     public class func logToConsole(msg: String) {
         print(msg)
+        Alamofire.request("www.baidu.com").responseJSON { (resonse) in
+            print("\(resonse)")
+        }
     }
 }
